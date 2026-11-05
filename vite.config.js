@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
+// Repo bernama Puputlestarii.github.io, jadi base harus '/'
 export default defineConfig({
-  plugins: [react()],
-  // Sesuaikan 'portofolio-puput' dengan nama repositori GitHub kamu jika berbeda
-  base: '/portofolio-puput/', 
+  plugins: [react(), tailwindcss()],
+  base: '/',
 })

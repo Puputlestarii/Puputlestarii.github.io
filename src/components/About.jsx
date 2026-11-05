@@ -2,7 +2,6 @@ import React from 'react';
 import { profileData } from '../data/profile';
 
 export default function About() {
-  const { location, email, phone } = profileData.personal;
   const { education, organizations } = profileData;
 
   return (
@@ -17,11 +16,11 @@ export default function About() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           
-          {/* Kolom Kiri: Narasi Baru & Kontak Cepat */}
+          {/* Kolom Kiri: Narasi Perkenalan (Kotak kontak sudah dihapus) */}
           <div>
             <h3 className="text-2xl font-semibold text-slate-800 mb-6">Kenalan Lebih Dekat</h3>
             
-            <div className="space-y-4 text-slate-600 leading-relaxed text-justify mb-8">
+            <div className="space-y-4 text-slate-600 leading-relaxed text-justify">
               <p>
                 Hai, perkenalkan, saya Puput Lestari. Saya tertarik pada dua bidang yang saling melengkapi: Fullstack Web Developer dan System and Data Analyst. Bagi saya, sistem informasi bukan sekadar aplikasi di layar, melainkan gabungan perangkat keras, perangkat lunak, data, jaringan, prosedur, dan manusia yang menggunakannya. Karena itu, saya selalu berusaha melihat masalah secara utuh, bukan hanya dari sisi teknis.
               </p>
@@ -31,23 +30,6 @@ export default function About() {
               <p>
                 Saya pembelajar yang cepat beradaptasi dan tidak menunggu diminta untuk mencoba hal baru. Saya selalu mengikuti perkembangan teknologi dan praktik terbaik di dunia perangkat lunak, dan saya siap berkontribusi bersama tim untuk menghasilkan produk digital yang memberi dampak nyata bagi pengguna dan organisasi.
               </p>
-            </div>
-            
-            <div className="bg-rose-50/50 p-6 rounded-2xl border border-rose-100 shadow-sm">
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="font-semibold text-slate-700 w-24">Domisili:</span>
-                  <span className="text-slate-600">{location}</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="font-semibold text-slate-700 w-24">Email:</span>
-                  <span className="text-slate-600">{email}</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="font-semibold text-slate-700 w-24">Telepon:</span>
-                  <span className="text-slate-600">{phone}</span>
-                </li>
-              </ul>
             </div>
           </div>
 
