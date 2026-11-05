@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #881337; /* Rose 900 (Gelap & Elegan) */
+  --color-secondary: #e11d48; /* Rose 600 (Pink Estetik Utama) */
+  --color-accent: #f43f5e; /* Rose 500 */
+}
+
+body {
+  @apply bg-rose-50/40 text-slate-800 antialiased selection:bg-rose-500 selection:text-white;
+}
