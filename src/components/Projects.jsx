@@ -75,7 +75,7 @@ export default function Projects() {
           {/* Tautan Klik Langsung ke GitHub */}
           <div className="mt-10 pt-8 border-t border-slate-100 flex justify-center md:justify-start">
             <a 
-              href="https://github.com/Puputlestarii" 
+              href="https://github.com/Puputlestarii/Sistem-Informasi-Bank-Sampah" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-3.5 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
